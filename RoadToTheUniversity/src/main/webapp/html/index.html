@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>RoadToUniversity</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+
+<div>
+    <div id="changeField">
+        <h2>Change field</h2>
+        <button id="add">add</button>
+        <button id="delete">delete</button>
+    </div>
+
+    <div id="contJump">
+        <h2>Jump to...</h2>
+        <button class="jump" data-price="-1" >k-1</button>
+        <button class="jump" data-price="0">1</button>
+        <button class="jump" data-price="1" >k+1</button>
+        <button class="cancel">Cancel</button>
+    </div>
+</div>
+
+<h2>History</h2>
+<ol id="historyPanel" class="historyPanel">
+
+</ol>
+
+<h2>View</h2>
+
+<div id="road" class="road">
+    <div class="field field_hummock student"></div>
+    <div class="field field_hummock"></div>
+</div>
+
+
+<script src="../js/script.js"></script>
+
+</body>
+</html>

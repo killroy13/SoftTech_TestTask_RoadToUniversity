@@ -1,0 +1,22 @@
+### Intellij ###
+
+.idea
+out
+target
+
+
+web/testJsp
+
+### Java ###
+
+*.class
+
+### Intellij Patch ###
+
+*.iml
+
+
+### Package Files ###
+*.jar
+*.war
+*.ear
